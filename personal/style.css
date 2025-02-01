@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(10, 71, 151);
+    padding: 10px 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0px 70px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.container {
+    display: flex;
+    border: 2px solid rgb(10, 71, 151);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.container2 {
+    justify-content: center;
+    display: flex;
+}
+
+.text-box {
+    border: 2px solid rgb(10, 71, 151);
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 65%;
+}
+
+#my-projects p {
+    padding: 10px;
+}
+
+.container #personal-image {
+    width: 300px;
+    border-radius: 150px;
+    border: 2px solid rgb(10, 71, 151);
+}
+
+.container #project-1-image {
+    margin: 10px;
+}
+
+.left-box + .right-box {
+    margin-left: 50px;
+}
+
+#about-me h1 {
+    background-color: rgb(10, 71, 151);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.left-box {
+    text-align: center;
+}
+
+.right-box {
+    width: 100%;
+}
+
+#contact-me ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    background-color: rgb(10, 71, 151);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 1.1em;
+}
+
+.whitespace {
+    margin: 20px 0px;
+}
